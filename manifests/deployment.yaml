@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: react-application
-        image: anaisurlichs/react-example-app:latest
+        image: anaisurlichs/react-example-app
         ports:
           - containerPort: 80
         imagePullPolicy: Always
